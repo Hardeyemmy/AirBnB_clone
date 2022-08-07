@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 """
-New class base - code that pass pycodestyle test
-
+New class Square
 """
-class Area:
-    """ Defines an area """
-    def __init__(self, length=0, breadth=0):
-        if type(length) != int:
-            raise TypeError("length must be intger")
-        self.__length = length
+
+
+class Square:
+    """ defines a square """
+    def __init__(self, size):
+        self.__size = size
